@@ -1,11 +1,12 @@
-import { Pressable, StyleSheet, Text } from 'react-native';
+import { Pressable, StyleSheet } from 'react-native';
+import { AppText } from '@/components/ui/app-text';
 import { colors } from '@/constants/theme';
 import type { PlaceCategory } from '@/features/places/domain/place';
 
 export function CategoryChip({ label, selected, onPress }: { label: PlaceCategory; selected: boolean; onPress: () => void }) {
   return (
     <Pressable accessibilityRole="button" accessibilityState={{ selected }} onPress={onPress} style={({ pressed }) => [styles.chip, selected && styles.selected, pressed && styles.pressed]}>
-      <Text style={[styles.label, selected && styles.selectedLabel]}>{label}</Text>
+      <AppText style={[styles.label, selected && styles.selectedLabel]}>{label}</AppText>
     </Pressable>
   );
 }

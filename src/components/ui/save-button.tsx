@@ -5,7 +5,7 @@ import { colors } from '@/constants/theme';
 export function SaveButton({ saved, onPress, size = 18 }: { saved: boolean; onPress: () => void; size?: number }) {
   return (
     <Pressable accessibilityRole="button" accessibilityLabel={saved ? 'Remove from saved places' : 'Save place'} accessibilityState={{ selected: saved }} onPress={onPress} style={({ pressed }) => [styles.button, pressed && styles.pressed]}>
-      <SymbolView name={{ ios: saved ? 'heart.fill' : 'heart', android: saved ? 'favorite' : 'favorite_border', web: saved ? 'favorite' : 'favorite_border' }} tintColor={saved ? colors.pink : colors.text} size={size} />
+      <SymbolView name={{ ios: saved ? 'bookmark.fill' : 'bookmark', android: saved ? 'bookmark' : 'bookmark_border', web: saved ? 'bookmark' : 'bookmark_border' }} tintColor={saved ? colors.mint : colors.text} size={size} />
     </Pressable>
   );
 }

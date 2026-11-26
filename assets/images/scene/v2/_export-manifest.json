@@ -1,0 +1,1154 @@
+{
+ "name": "PulseCity City World scene assets",
+ "source": "pulsecity-v2.3.html (scene.js CityScene, seeds rng(7) buildings/stars, rng(3) ridge)",
+ "theme": "city",
+ "mood": "chill",
+ "referenceDevice": "390 pt wide phone, @3x",
+ "scenes": {
+  "hero": {
+   "v23Mode": "band",
+   "artboardPt": [
+    390,
+    243
+   ],
+   "artboardPx": [
+    1170,
+    729
+   ],
+   "assets": [
+    {
+     "id": "hero.sky",
+     "file": "hero/hero_sky@3x.png",
+     "zIndex": 0,
+     "role": "Stretch to scene width x height (1 pt wide source). Bottom of the gradient = palette sky[2].",
+     "sizePx": [
+      3,
+      729
+     ],
+     "sizePt": [
+      1,
+      243
+     ],
+     "density": 3,
+     "bytes": 1272,
+     "sha256": "c4353ab68bc9dee5"
+    },
+    {
+     "id": "hero.stars",
+     "file": null,
+     "zIndex": 1,
+     "role": "Native: 70 white squares from motion-spec.json stars[] (no image)"
+    },
+    {
+     "id": "hero.moon_glow",
+     "file": "hero/hero_moon_glow@1x.png",
+     "zIndex": 2,
+     "role": "Radial glow behind moon, @1x source scaled to glowR*2 (smooth gradient, upscale is lossless in practice)",
+     "sizePx": [
+      292,
+      292
+     ],
+     "sizePt": [
+      292,
+      292
+     ],
+     "density": 1,
+     "bytes": 60511,
+     "sha256": "c31ad28c58000a3f"
+    },
+    {
+     "id": "hero.moon",
+     "file": "hero/hero_moon@3x.png",
+     "zIndex": 3,
+     "role": "Moon disc, centred on moon position",
+     "sizePx": [
+      72,
+      72
+     ],
+     "sizePt": [
+      24,
+      24
+     ],
+     "density": 3,
+     "bytes": 1219,
+     "sha256": "6e9fc1117136d429"
+    },
+    {
+     "id": "hero.ridge",
+     "file": "hero/hero_ridge@3x.png",
+     "zIndex": 4,
+     "role": "Parallax layer",
+     "sizePx": [
+      1221,
+      346
+     ],
+     "sizePt": [
+      407.0,
+      115.333
+     ],
+     "density": 3,
+     "bytes": 6769,
+     "sha256": "786df232cc22b2c4",
+     "parallax": 0.12,
+     "offsetYPt": 127.6667,
+     "layerWidthPt": 407,
+     "xOriginPt": 0
+    },
+    {
+     "id": "hero.far",
+     "file": "hero/hero_far@3x.png",
+     "zIndex": 5,
+     "role": "Parallax layer (windows + haze baked in)",
+     "sizePx": [
+      1293,
+      309
+     ],
+     "sizePt": [
+      431.0,
+      103.0
+     ],
+     "density": 3,
+     "bytes": 6373,
+     "sha256": "e38efc0d30e581e2",
+     "parallax": 0.3,
+     "offsetYPt": 140.0,
+     "layerWidthPt": 431,
+     "xOriginPt": 0
+    },
+    {
+     "id": "hero.mid",
+     "file": "hero/hero_mid@3x.png",
+     "zIndex": 6,
+     "role": "Parallax layer (district buildings + lit windows baked in)",
+     "sizePx": [
+      1416,
+      305
+     ],
+     "sizePt": [
+      472.0,
+      101.667
+     ],
+     "density": 3,
+     "bytes": 52191,
+     "sha256": "20f4b40de019400e",
+     "parallax": 0.6,
+     "offsetYPt": 141.3333,
+     "layerWidthPt": 472,
+     "xOriginPt": 0
+    },
+    {
+     "id": "hero.vignette",
+     "file": "hero/hero_vignette@1x.png",
+     "zIndex": 12,
+     "role": "Edge darkening over the whole scene, @1x source stretched to scene size",
+     "sizePx": [
+      390,
+      243
+     ],
+     "sizePt": [
+      390,
+      243
+     ],
+     "density": 1,
+     "bytes": 6238,
+     "sha256": "3ecf7d1693f11a2e"
+    },
+    {
+     "id": "hero.shade",
+     "file": "hero/hero_shade@3x.png",
+     "zIndex": 13,
+     "role": "Hero top shade over the scene (under the UI). Optional: may be a native gradient instead.",
+     "sizePx": [
+      3,
+      729
+     ],
+     "sizePt": [
+      1,
+      243
+     ],
+     "density": 3,
+     "bytes": 156,
+     "sha256": "d878d14a8646b71b"
+    }
+   ],
+   "totalBytes": 134729,
+   "decodedTextureBytes": 5773900
+  },
+  "preview": {
+   "v23Mode": "panel",
+   "artboardPt": [
+    358,
+    208
+   ],
+   "artboardPx": [
+    1074,
+    624
+   ],
+   "assets": [
+    {
+     "id": "preview.sky",
+     "file": "preview/preview_sky@3x.png",
+     "zIndex": 0,
+     "role": "Stretch to scene width x height (1 pt wide source). Bottom of the gradient = palette sky[2].",
+     "sizePx": [
+      3,
+      624
+     ],
+     "sizePt": [
+      1,
+      208
+     ],
+     "density": 3,
+     "bytes": 974,
+     "sha256": "05991f5e66f11a37"
+    },
+    {
+     "id": "preview.stars",
+     "file": null,
+     "zIndex": 1,
+     "role": "Native: 70 white squares from motion-spec.json stars[] (no image)"
+    },
+    {
+     "id": "preview.moon_glow",
+     "file": "preview/preview_moon_glow@1x.png",
+     "zIndex": 2,
+     "role": "Radial glow behind moon, @1x source scaled to glowR*2 (smooth gradient, upscale is lossless in practice)",
+     "sizePx": [
+      250,
+      250
+     ],
+     "sizePt": [
+      250,
+      250
+     ],
+     "density": 1,
+     "bytes": 47432,
+     "sha256": "66bddc07463d5738"
+    },
+    {
+     "id": "preview.moon",
+     "file": "preview/preview_moon@3x.png",
+     "zIndex": 3,
+     "role": "Moon disc, centred on moon position",
+     "sizePx": [
+      63,
+      63
+     ],
+     "sizePt": [
+      21,
+      21
+     ],
+     "density": 3,
+     "bytes": 1052,
+     "sha256": "afd33005ef563cbe"
+    },
+    {
+     "id": "preview.ridge",
+     "file": "preview/preview_ridge@3x.png",
+     "zIndex": 4,
+     "role": "Parallax layer",
+     "sizePx": [
+      1167,
+      322
+     ],
+     "sizePt": [
+      389.0,
+      107.333
+     ],
+     "density": 3,
+     "bytes": 6546,
+     "sha256": "ec572eca234015c0",
+     "parallax": 0.12,
+     "offsetYPt": 100.6667,
+     "layerWidthPt": 389,
+     "xOriginPt": 0
+    },
+    {
+     "id": "preview.far",
+     "file": "preview/preview_far@3x.png",
+     "zIndex": 5,
+     "role": "Parallax layer (windows + haze baked in)",
+     "sizePx": [
+      1302,
+      309
+     ],
+     "sizePt": [
+      434.0,
+      103.0
+     ],
+     "density": 3,
+     "bytes": 6350,
+     "sha256": "38b9c0c575704154",
+     "parallax": 0.3,
+     "offsetYPt": 105.0,
+     "layerWidthPt": 434,
+     "xOriginPt": 0
+    },
+    {
+     "id": "preview.mid",
+     "file": "preview/preview_mid@3x.png",
+     "zIndex": 6,
+     "role": "Parallax layer (district buildings + lit windows baked in)",
+     "sizePx": [
+      1527,
+      321
+     ],
+     "sizePt": [
+      509.0,
+      107.0
+     ],
+     "density": 3,
+     "bytes": 53776,
+     "sha256": "e492c46a41a9e528",
+     "parallax": 0.6,
+     "offsetYPt": 101.0,
+     "layerWidthPt": 509,
+     "xOriginPt": 0
+    },
+    {
+     "id": "preview.beam_column",
+     "file": "preview/preview_beam_column@3x.png",
+     "zIndex": 7,
+     "role": "District beam: stretch to 12 pt x (districtTop-4) pt, anchored at top=0, opacity animated",
+     "sizePx": [
+      36,
+      384
+     ],
+     "sizePt": [
+      12,
+      128
+     ],
+     "density": 3,
+     "bytes": 3772,
+     "sha256": "3e875b3f9e095213"
+    },
+    {
+     "id": "preview.beam_halo",
+     "file": "preview/preview_beam_halo@3x.png",
+     "zIndex": 8,
+     "role": "District beam glow at the beam base, 44x44 pt, opacity animated",
+     "sizePx": [
+      132,
+      132
+     ],
+     "sizePt": [
+      44,
+      44
+     ],
+     "density": 3,
+     "bytes": 27161,
+     "sha256": "fd9104561d2548de"
+    },
+    {
+     "id": "preview.metro",
+     "file": "preview/preview_metro@3x.png",
+     "zIndex": 9,
+     "role": "Parallax layer: track + pillars",
+     "sizePx": [
+      1677,
+      44
+     ],
+     "sizePt": [
+      559.0,
+      14.667
+     ],
+     "density": 3,
+     "bytes": 534,
+     "sha256": "964278b9076a3344",
+     "parallax": 0.8,
+     "offsetYPt": 187.0,
+     "layerWidthPt": 559,
+     "xOriginPt": 0
+    },
+    {
+     "id": "preview.train",
+     "file": "preview/preview_train@3x.png",
+     "zIndex": 10,
+     "role": "Moving sprite on the metro line",
+     "sizePx": [
+      270,
+      27
+     ],
+     "sizePt": [
+      90,
+      9
+     ],
+     "density": 3,
+     "bytes": 186,
+     "sha256": "1d82d7b44c84b9fa"
+    },
+    {
+     "id": "preview.near",
+     "file": "preview/preview_near@3x.png",
+     "zIndex": 11,
+     "role": "Parallax layer: ground strip",
+     "sizePx": [
+      1827,
+      32
+     ],
+     "sizePt": [
+      609.0,
+      10.667
+     ],
+     "density": 3,
+     "bytes": 381,
+     "sha256": "0e6d4e0a7290c355",
+     "parallax": 1,
+     "offsetYPt": 197.3333,
+     "layerWidthPt": 609,
+     "xOriginPt": 0
+    },
+    {
+     "id": "preview.vignette",
+     "file": "preview/preview_vignette@1x.png",
+     "zIndex": 12,
+     "role": "Edge darkening over the whole scene, @1x source stretched to scene size",
+     "sizePx": [
+      358,
+      208
+     ],
+     "sizePt": [
+      358,
+      208
+     ],
+     "density": 1,
+     "bytes": 5140,
+     "sha256": "45c4c3390694b5b3"
+    }
+   ],
+   "totalBytes": 153304,
+   "decodedTextureBytes": 6327416
+  },
+  "hero-winter": {
+   "v23Mode": "band",
+   "theme": "winter",
+   "artboardPt": [
+    390,
+    243
+   ],
+   "artboardPx": [
+    1170,
+    729
+   ],
+   "assets": [
+    {
+     "id": "hero-winter.sky",
+     "file": "hero-winter/hero_winter_sky@3x.png",
+     "zIndex": 0,
+     "role": "Stretch to scene size (1 pt wide source)",
+     "sizePx": [
+      3,
+      729
+     ],
+     "sizePt": [
+      1,
+      243
+     ],
+     "density": 3,
+     "bytes": 1101,
+     "sha256": "8167cc2c39f09626"
+    },
+    {
+     "id": "hero-winter.stars",
+     "file": null,
+     "zIndex": 1,
+     "role": "Native white squares from motion-spec.winter.stars"
+    },
+    {
+     "id": "hero-winter.moon_glow",
+     "file": "hero-winter/hero_winter_moon_glow@1x.png",
+     "zIndex": 2,
+     "role": "Radial glow, @1x scaled to glowR*2",
+     "sizePx": [
+      292,
+      292
+     ],
+     "sizePt": [
+      292,
+      292
+     ],
+     "density": 1,
+     "bytes": 73919,
+     "sha256": "936b8560e6bba624"
+    },
+    {
+     "id": "hero-winter.moon",
+     "file": "hero-winter/hero_winter_moon@3x.png",
+     "zIndex": 3,
+     "role": "Moon disc",
+     "sizePx": [
+      72,
+      72
+     ],
+     "sizePt": [
+      24,
+      24
+     ],
+     "density": 3,
+     "bytes": 1227,
+     "sha256": "4b5ed6ae3952b73a"
+    },
+    {
+     "id": "hero-winter.ridge",
+     "file": "hero-winter/hero_winter_ridge@3x.png",
+     "zIndex": 4,
+     "role": "Parallax layer",
+     "sizePx": [
+      1221,
+      346
+     ],
+     "sizePt": [
+      407.0,
+      115.333
+     ],
+     "density": 3,
+     "bytes": 6867,
+     "sha256": "ea6045665c352871",
+     "parallax": 0.12,
+     "offsetYPt": 127.6667,
+     "layerWidthPt": 407,
+     "xOriginPt": 0
+    },
+    {
+     "id": "hero-winter.fog",
+     "file": "hero-winter/hero_winter_fog@1x.png",
+     "zIndex": 5,
+     "role": "Fog puff sprite (v2.3 own 128px sprite) stretched per fog band; used for fog_band0 and fog_band1",
+     "sizePx": [
+      128,
+      128
+     ],
+     "sizePt": [
+      128,
+      128
+     ],
+     "density": 1,
+     "bytes": 8840,
+     "sha256": "09689ec370f5de2a"
+    },
+    {
+     "id": "hero-winter.far",
+     "file": "hero-winter/hero_winter_far@3x.png",
+     "zIndex": 6,
+     "role": "Parallax layer",
+     "sizePx": [
+      1293,
+      309
+     ],
+     "sizePt": [
+      431.0,
+      103.0
+     ],
+     "density": 3,
+     "bytes": 7846,
+     "sha256": "99e56c5dba74b7c0",
+     "parallax": 0.3,
+     "offsetYPt": 140.0,
+     "layerWidthPt": 431,
+     "xOriginPt": 0
+    },
+    {
+     "id": "hero-winter.farCaps",
+     "file": "hero-winter/hero_winter_farCaps@3x.png",
+     "zIndex": 7,
+     "role": "Snow caps for far layer; same placement as far; opacity = snowAmt",
+     "sizePx": [
+      1293,
+      97
+     ],
+     "sizePt": [
+      431.0,
+      32.333
+     ],
+     "density": 3,
+     "bytes": 2348,
+     "sha256": "4b84ac06e3bd064a",
+     "parallax": 0.3,
+     "offsetYPt": 138.0,
+     "layerWidthPt": 431,
+     "xOriginPt": 0
+    },
+    {
+     "id": "hero-winter.mid",
+     "file": "hero-winter/hero_winter_mid@3x.png",
+     "zIndex": 9,
+     "role": "Parallax layer",
+     "sizePx": [
+      1416,
+      305
+     ],
+     "sizePt": [
+      472.0,
+      101.667
+     ],
+     "density": 3,
+     "bytes": 57964,
+     "sha256": "145901502c624123",
+     "parallax": 0.6,
+     "offsetYPt": 141.3333,
+     "layerWidthPt": 472,
+     "xOriginPt": 0
+    },
+    {
+     "id": "hero-winter.midCaps",
+     "file": "hero-winter/hero_winter_midCaps@3x.png",
+     "zIndex": 10,
+     "role": "Snow caps + icicles for mid layer; same placement as mid; opacity = snowAmt",
+     "sizePx": [
+      1416,
+      268
+     ],
+     "sizePt": [
+      472.0,
+      89.333
+     ],
+     "density": 3,
+     "bytes": 14935,
+     "sha256": "a14be9eee257089e",
+     "parallax": 0.6,
+     "offsetYPt": 136.6667,
+     "layerWidthPt": 472,
+     "xOriginPt": 0
+    },
+    {
+     "id": "hero-winter.snowman_body",
+     "file": "hero-winter/hero_winter_snowman_body@3x.png",
+     "zIndex": 16,
+     "role": "Snowman shadow + body (shared box with the other 3 parts)",
+     "sizePx": [
+      100,
+      145
+     ],
+     "sizePt": [
+      33.48,
+      48.36
+     ],
+     "density": 3,
+     "bytes": 4595,
+     "sha256": "2459b8fc2805a6a8"
+    },
+    {
+     "id": "hero-winter.snowman_head",
+     "file": "hero-winter/hero_winter_snowman_head@3x.png",
+     "zIndex": 16.1,
+     "role": "Snowman head + hat + face; rotates around head pivot",
+     "sizePx": [
+      100,
+      145
+     ],
+     "sizePt": [
+      33.48,
+      48.36
+     ],
+     "density": 3,
+     "bytes": 1841,
+     "sha256": "066227f3c9d9249a"
+    },
+    {
+     "id": "hero-winter.snowman_front",
+     "file": "hero-winter/hero_winter_snowman_front@3x.png",
+     "zIndex": 16.2,
+     "role": "Scarf, left arm, buttons",
+     "sizePx": [
+      100,
+      145
+     ],
+     "sizePt": [
+      33.48,
+      48.36
+     ],
+     "density": 3,
+     "bytes": 1094,
+     "sha256": "6653bb1b08ea0846"
+    },
+    {
+     "id": "hero-winter.snowman_arm",
+     "file": "hero-winter/hero_winter_snowman_arm@3x.png",
+     "zIndex": 16.3,
+     "role": "Waving right arm; rotates around arm pivot",
+     "sizePx": [
+      100,
+      145
+     ],
+     "sizePt": [
+      33.48,
+      48.36
+     ],
+     "density": 3,
+     "bytes": 765,
+     "sha256": "e3dda6a226a21d22"
+    },
+    {
+     "id": "hero-winter.flakes_small",
+     "file": null,
+     "zIndex": 17,
+     "role": "Native white circles from motion-spec.winter.snowfall"
+    },
+    {
+     "id": "hero-winter.flake_big",
+     "file": "hero-winter/hero_winter_flake_big@3x.png",
+     "zIndex": 17.1,
+     "role": "Large snowflake, 12x12 pt, rotated by flake phase",
+     "sizePx": [
+      36,
+      36
+     ],
+     "sizePt": [
+      12,
+      12
+     ],
+     "density": 3,
+     "bytes": 441,
+     "sha256": "5301c1179a244b4d"
+    },
+    {
+     "id": "hero-winter.frost",
+     "file": "hero-winter/hero_winter_frost@1x.png",
+     "zIndex": 18,
+     "role": "Frost edge over whole scene (replaces the City World vignette); opacity = snowAmt",
+     "sizePx": [
+      390,
+      243
+     ],
+     "sizePt": [
+      390,
+      243
+     ],
+     "density": 1,
+     "bytes": 25382,
+     "sha256": "61ea63e4b605e7ca"
+    },
+    {
+     "id": "hero-winter.shade",
+     "file": "hero-winter/hero_winter_shade@3x.png",
+     "zIndex": 19,
+     "role": "Hero top shade (winter colours), optional native gradient",
+     "sizePx": [
+      3,
+      729
+     ],
+     "sizePt": [
+      1,
+      243
+     ],
+     "density": 3,
+     "bytes": 154,
+     "sha256": "e55d70141b28a2e0"
+    }
+   ],
+   "totalBytes": 209319,
+   "decodedTextureBytes": 8096256
+  },
+  "preview-winter": {
+   "v23Mode": "panel",
+   "theme": "winter",
+   "artboardPt": [
+    358,
+    208
+   ],
+   "artboardPx": [
+    1074,
+    624
+   ],
+   "assets": [
+    {
+     "id": "preview-winter.sky",
+     "file": "preview-winter/preview_winter_sky@3x.png",
+     "zIndex": 0,
+     "role": "Stretch to scene size (1 pt wide source)",
+     "sizePx": [
+      3,
+      624
+     ],
+     "sizePt": [
+      1,
+      208
+     ],
+     "density": 3,
+     "bytes": 950,
+     "sha256": "4a08a44d9b5633b6"
+    },
+    {
+     "id": "preview-winter.stars",
+     "file": null,
+     "zIndex": 1,
+     "role": "Native white squares from motion-spec.winter.stars"
+    },
+    {
+     "id": "preview-winter.moon_glow",
+     "file": "preview-winter/preview_winter_moon_glow@1x.png",
+     "zIndex": 2,
+     "role": "Radial glow, @1x scaled to glowR*2",
+     "sizePx": [
+      250,
+      250
+     ],
+     "sizePt": [
+      250,
+      250
+     ],
+     "density": 1,
+     "bytes": 59488,
+     "sha256": "d2114daf05306d3e"
+    },
+    {
+     "id": "preview-winter.moon",
+     "file": "preview-winter/preview_winter_moon@3x.png",
+     "zIndex": 3,
+     "role": "Moon disc",
+     "sizePx": [
+      63,
+      63
+     ],
+     "sizePt": [
+      21,
+      21
+     ],
+     "density": 3,
+     "bytes": 1077,
+     "sha256": "40118b246a717d84"
+    },
+    {
+     "id": "preview-winter.ridge",
+     "file": "preview-winter/preview_winter_ridge@3x.png",
+     "zIndex": 4,
+     "role": "Parallax layer",
+     "sizePx": [
+      1167,
+      322
+     ],
+     "sizePt": [
+      389.0,
+      107.333
+     ],
+     "density": 3,
+     "bytes": 6692,
+     "sha256": "d3ed450fe8828cd8",
+     "parallax": 0.12,
+     "offsetYPt": 100.6667,
+     "layerWidthPt": 389,
+     "xOriginPt": 0
+    },
+    {
+     "id": "preview-winter.fog",
+     "file": "preview-winter/preview_winter_fog@1x.png",
+     "zIndex": 5,
+     "role": "Fog puff sprite (v2.3 own 128px sprite) stretched per fog band; used for fog_band0 and fog_band1",
+     "sizePx": [
+      128,
+      128
+     ],
+     "sizePt": [
+      128,
+      128
+     ],
+     "density": 1,
+     "bytes": 8840,
+     "sha256": "09689ec370f5de2a"
+    },
+    {
+     "id": "preview-winter.far",
+     "file": "preview-winter/preview_winter_far@3x.png",
+     "zIndex": 6,
+     "role": "Parallax layer",
+     "sizePx": [
+      1302,
+      309
+     ],
+     "sizePt": [
+      434.0,
+      103.0
+     ],
+     "density": 3,
+     "bytes": 8515,
+     "sha256": "937b5ddcdbfa4dc3",
+     "parallax": 0.3,
+     "offsetYPt": 105.0,
+     "layerWidthPt": 434,
+     "xOriginPt": 0
+    },
+    {
+     "id": "preview-winter.farCaps",
+     "file": "preview-winter/preview_winter_farCaps@3x.png",
+     "zIndex": 7,
+     "role": "Snow caps for far layer; same placement as far; opacity = snowAmt",
+     "sizePx": [
+      1302,
+      99
+     ],
+     "sizePt": [
+      434.0,
+      33.0
+     ],
+     "density": 3,
+     "bytes": 2335,
+     "sha256": "811ef62aae1e4181",
+     "parallax": 0.3,
+     "offsetYPt": 103.0,
+     "layerWidthPt": 434,
+     "xOriginPt": 0
+    },
+    {
+     "id": "preview-winter.mid",
+     "file": "preview-winter/preview_winter_mid@3x.png",
+     "zIndex": 9,
+     "role": "Parallax layer",
+     "sizePx": [
+      1527,
+      321
+     ],
+     "sizePt": [
+      509.0,
+      107.0
+     ],
+     "density": 3,
+     "bytes": 60594,
+     "sha256": "ef35b63a82ffab1c",
+     "parallax": 0.6,
+     "offsetYPt": 101.0,
+     "layerWidthPt": 509,
+     "xOriginPt": 0
+    },
+    {
+     "id": "preview-winter.midCaps",
+     "file": "preview-winter/preview_winter_midCaps@3x.png",
+     "zIndex": 10,
+     "role": "Snow caps + icicles for mid layer; same placement as mid; opacity = snowAmt",
+     "sizePx": [
+      1527,
+      259
+     ],
+     "sizePt": [
+      509.0,
+      86.333
+     ],
+     "density": 3,
+     "bytes": 16712,
+     "sha256": "292a44b876e44e2e",
+     "parallax": 0.6,
+     "offsetYPt": 96.6667,
+     "layerWidthPt": 509,
+     "xOriginPt": 0
+    },
+    {
+     "id": "preview-winter.beam_column",
+     "file": "preview-winter/preview_winter_beam_column@3x.png",
+     "zIndex": 11,
+     "role": "District beam column (normal blend in winter)",
+     "sizePx": [
+      36,
+      384
+     ],
+     "sizePt": [
+      12,
+      128
+     ],
+     "density": 3,
+     "bytes": 3201,
+     "sha256": "e1eceea291a72317"
+    },
+    {
+     "id": "preview-winter.beam_halo",
+     "file": "preview-winter/preview_winter_beam_halo@3x.png",
+     "zIndex": 12,
+     "role": "District beam glow",
+     "sizePx": [
+      132,
+      132
+     ],
+     "sizePt": [
+      44,
+      44
+     ],
+     "density": 3,
+     "bytes": 23485,
+     "sha256": "8567d970b3d45109"
+    },
+    {
+     "id": "preview-winter.metro",
+     "file": "preview-winter/preview_winter_metro@3x.png",
+     "zIndex": 13,
+     "role": "Parallax layer: track + pillars",
+     "sizePx": [
+      1677,
+      44
+     ],
+     "sizePt": [
+      559.0,
+      14.667
+     ],
+     "density": 3,
+     "bytes": 540,
+     "sha256": "74b02d42e5707d38",
+     "parallax": 0.8,
+     "offsetYPt": 187.0,
+     "layerWidthPt": 559,
+     "xOriginPt": 0
+    },
+    {
+     "id": "preview-winter.train",
+     "file": "preview-winter/preview_winter_train@3x.png",
+     "zIndex": 14,
+     "role": "Moving sprite on the metro line",
+     "sizePx": [
+      270,
+      27
+     ],
+     "sizePt": [
+      90,
+      9
+     ],
+     "density": 3,
+     "bytes": 187,
+     "sha256": "73c2a093583a529a"
+    },
+    {
+     "id": "preview-winter.near",
+     "file": "preview-winter/preview_winter_near@3x.png",
+     "zIndex": 15,
+     "role": "Ground with snow drifts",
+     "sizePx": [
+      1827,
+      46
+     ],
+     "sizePt": [
+      609.0,
+      15.333
+     ],
+     "density": 3,
+     "bytes": 4628,
+     "sha256": "3936bffae667ebf9",
+     "parallax": 1,
+     "offsetYPt": 192.6667,
+     "layerWidthPt": 609,
+     "xOriginPt": 0
+    },
+    {
+     "id": "preview-winter.snowman_body",
+     "file": "preview-winter/preview_winter_snowman_body@3x.png",
+     "zIndex": 16,
+     "role": "Snowman shadow + body (shared box with the other 3 parts)",
+     "sizePx": [
+      130,
+      187
+     ],
+     "sizePt": [
+      43.2,
+      62.400000000000006
+     ],
+     "density": 3,
+     "bytes": 6445,
+     "sha256": "d7f334a531d47eab"
+    },
+    {
+     "id": "preview-winter.snowman_head",
+     "file": "preview-winter/preview_winter_snowman_head@3x.png",
+     "zIndex": 16.1,
+     "role": "Snowman head + hat + face; rotates around head pivot",
+     "sizePx": [
+      130,
+      187
+     ],
+     "sizePt": [
+      43.2,
+      62.400000000000006
+     ],
+     "density": 3,
+     "bytes": 2516,
+     "sha256": "e670b8edf25d01af"
+    },
+    {
+     "id": "preview-winter.snowman_front",
+     "file": "preview-winter/preview_winter_snowman_front@3x.png",
+     "zIndex": 16.2,
+     "role": "Scarf, left arm, buttons",
+     "sizePx": [
+      130,
+      187
+     ],
+     "sizePt": [
+      43.2,
+      62.400000000000006
+     ],
+     "density": 3,
+     "bytes": 1364,
+     "sha256": "e4013c554b239d06"
+    },
+    {
+     "id": "preview-winter.snowman_arm",
+     "file": "preview-winter/preview_winter_snowman_arm@3x.png",
+     "zIndex": 16.3,
+     "role": "Waving right arm; rotates around arm pivot",
+     "sizePx": [
+      130,
+      187
+     ],
+     "sizePt": [
+      43.2,
+      62.400000000000006
+     ],
+     "density": 3,
+     "bytes": 959,
+     "sha256": "4c51b79312953007"
+    },
+    {
+     "id": "preview-winter.flakes_small",
+     "file": null,
+     "zIndex": 17,
+     "role": "Native white circles from motion-spec.winter.snowfall"
+    },
+    {
+     "id": "preview-winter.flake_big",
+     "file": "preview-winter/preview_winter_flake_big@3x.png",
+     "zIndex": 17.1,
+     "role": "Large snowflake, 12x12 pt, rotated by flake phase",
+     "sizePx": [
+      36,
+      36
+     ],
+     "sizePt": [
+      12,
+      12
+     ],
+     "density": 3,
+     "bytes": 441,
+     "sha256": "5301c1179a244b4d"
+    },
+    {
+     "id": "preview-winter.frost",
+     "file": "preview-winter/preview_winter_frost@1x.png",
+     "zIndex": 18,
+     "role": "Frost edge over whole scene (replaces the City World vignette); opacity = snowAmt",
+     "sizePx": [
+      358,
+      208
+     ],
+     "sizePt": [
+      358,
+      208
+     ],
+     "density": 1,
+     "bytes": 22446,
+     "sha256": "6f82ed352d9f3fec"
+    }
+   ],
+   "totalBytes": 231415,
+   "decodedTextureBytes": 8986972
+  }
+ },
+ "notIncluded": {
+  "hero.near": "Empty in v2.3: GEOM.band.near = 1.2 puts the ground below the hero frame.",
+  "cars, streetlights, snow, snowmen, fog, Surprise searchlight": "Deferred scope (full-screen City World, Surprise Me, Winter).",
+  "hero-winter.near": "Empty in v2.3 (ground below the hero frame); the hero snowman stands on the mid baseline instead."
+ },
+ "themes": {
+  "city": [
+   "hero",
+   "preview"
+  ],
+  "winter": [
+   "hero-winter",
+   "preview-winter"
+  ]
+ }
+}

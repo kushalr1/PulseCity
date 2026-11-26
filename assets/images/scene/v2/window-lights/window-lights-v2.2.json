@@ -1,0 +1,349 @@
+{
+ "encoding": "v2.2 grey",
+ "knots": {
+  "lit": [
+   0.0,
+   0.1,
+   0.12,
+   0.24,
+   0.38,
+   0.5,
+   0.58,
+   0.8,
+   1.0
+  ],
+  "code": [
+   0,
+   26,
+   31,
+   61,
+   97,
+   128,
+   148,
+   204,
+   255
+  ]
+ },
+ "files": [
+  {
+   "surface": "hero",
+   "layer": "far",
+   "sizePx": [
+    1293,
+    309
+   ],
+   "sizePt": [
+    431.0,
+    103.0
+   ],
+   "offsetYPt": 140.0,
+   "hazeTopPt": 20.38,
+   "kind": "thr",
+   "file": "window-lights/hero/hero_far_thr@3x.png",
+   "requirePath": "window-lights/hero/hero_far_thr.png",
+   "bytes": 5201,
+   "decodedBytes": 1598148
+  },
+  {
+   "surface": "hero",
+   "layer": "far",
+   "sizePx": [
+    1293,
+    309
+   ],
+   "sizePt": [
+    431.0,
+    103.0
+   ],
+   "offsetYPt": 140.0,
+   "hazeTopPt": 20.38,
+   "kind": "cov",
+   "file": "window-lights/hero/hero_far_cov@3x.png",
+   "requirePath": "window-lights/hero/hero_far_cov.png",
+   "bytes": 6961,
+   "decodedBytes": 1598148
+  },
+  {
+   "surface": "hero",
+   "layer": "mid",
+   "sizePx": [
+    1416,
+    305
+   ],
+   "sizePt": [
+    472.0,
+    101.667
+   ],
+   "offsetYPt": 141.3333,
+   "hazeTopPt": null,
+   "kind": "thr",
+   "file": "window-lights/hero/hero_mid_thr@3x.png",
+   "requirePath": "window-lights/hero/hero_mid_thr.png",
+   "bytes": 3999,
+   "decodedBytes": 1727520
+  },
+  {
+   "surface": "hero",
+   "layer": "mid",
+   "sizePx": [
+    1416,
+    305
+   ],
+   "sizePt": [
+    472.0,
+    101.667
+   ],
+   "offsetYPt": 141.3333,
+   "hazeTopPt": null,
+   "kind": "cov",
+   "file": "window-lights/hero/hero_mid_cov@3x.png",
+   "requirePath": "window-lights/hero/hero_mid_cov.png",
+   "bytes": 8197,
+   "decodedBytes": 1727520
+  },
+  {
+   "surface": "preview",
+   "layer": "far",
+   "sizePx": [
+    1302,
+    309
+   ],
+   "sizePt": [
+    434.0,
+    103.0
+   ],
+   "offsetYPt": 105.0,
+   "hazeTopPt": 23.96,
+   "kind": "thr",
+   "file": "window-lights/preview/preview_far_thr@3x.png",
+   "requirePath": "window-lights/preview/preview_far_thr.png",
+   "bytes": 5153,
+   "decodedBytes": 1609272
+  },
+  {
+   "surface": "preview",
+   "layer": "far",
+   "sizePx": [
+    1302,
+    309
+   ],
+   "sizePt": [
+    434.0,
+    103.0
+   ],
+   "offsetYPt": 105.0,
+   "hazeTopPt": 23.96,
+   "kind": "cov",
+   "file": "window-lights/preview/preview_far_cov@3x.png",
+   "requirePath": "window-lights/preview/preview_far_cov.png",
+   "bytes": 6963,
+   "decodedBytes": 1609272
+  },
+  {
+   "surface": "preview",
+   "layer": "mid",
+   "sizePx": [
+    1527,
+    321
+   ],
+   "sizePt": [
+    509.0,
+    107.0
+   ],
+   "offsetYPt": 101.0,
+   "hazeTopPt": null,
+   "kind": "thr",
+   "file": "window-lights/preview/preview_mid_thr@3x.png",
+   "requirePath": "window-lights/preview/preview_mid_thr.png",
+   "bytes": 4231,
+   "decodedBytes": 1960668
+  },
+  {
+   "surface": "preview",
+   "layer": "mid",
+   "sizePx": [
+    1527,
+    321
+   ],
+   "sizePt": [
+    509.0,
+    107.0
+   ],
+   "offsetYPt": 101.0,
+   "hazeTopPt": null,
+   "kind": "cov",
+   "file": "window-lights/preview/preview_mid_cov@3x.png",
+   "requirePath": "window-lights/preview/preview_mid_cov.png",
+   "bytes": 8438,
+   "decodedBytes": 1960668
+  },
+  {
+   "surface": "full",
+   "layer": "far",
+   "sizePx": [
+    1908,
+    873
+   ],
+   "sizePt": [
+    636.0,
+    291.0
+   ],
+   "offsetYPt": 411.6667,
+   "hazeTopPt": 44.0933,
+   "kind": "thr",
+   "file": "window-lights/full/full_far_thr@3x.png",
+   "requirePath": "window-lights/full/full_far_thr.png",
+   "bytes": 25308,
+   "decodedBytes": 6662736
+  },
+  {
+   "surface": "full",
+   "layer": "far",
+   "sizePx": [
+    1908,
+    873
+   ],
+   "sizePt": [
+    636.0,
+    291.0
+   ],
+   "offsetYPt": 411.6667,
+   "hazeTopPt": 44.0933,
+   "kind": "cov",
+   "file": "window-lights/full/full_far_cov@3x.png",
+   "requirePath": "window-lights/full/full_far_cov.png",
+   "bytes": 21822,
+   "decodedBytes": 6662736
+  },
+  {
+   "surface": "full",
+   "layer": "mid",
+   "sizePx": [
+    2646,
+    1045
+   ],
+   "sizePt": [
+    882.0,
+    348.333
+   ],
+   "offsetYPt": 354.3333,
+   "hazeTopPt": null,
+   "kind": "thr",
+   "file": "window-lights/full/full_mid_thr@3x.png",
+   "requirePath": "window-lights/full/full_mid_thr.png",
+   "bytes": 24887,
+   "decodedBytes": 11060280
+  },
+  {
+   "surface": "full",
+   "layer": "mid",
+   "sizePx": [
+    2646,
+    1045
+   ],
+   "sizePt": [
+    882.0,
+    348.333
+   ],
+   "offsetYPt": 354.3333,
+   "hazeTopPt": null,
+   "kind": "cov",
+   "file": "window-lights/full/full_mid_cov@3x.png",
+   "requirePath": "window-lights/full/full_mid_cov.png",
+   "bytes": 45627,
+   "decodedBytes": 11060280
+  }
+ ],
+ "verification": [
+  {
+   "surface": "hero",
+   "layer": "far",
+   "windowPixels": 8933,
+   "mismatchAtMoodLits": {
+    "0.10": 0,
+    "0.12": 0,
+    "0.24": 0,
+    "0.38": 0,
+    "0.50": 0,
+    "0.58": 0,
+    "0.80": 0
+   },
+   "maxMismatchFractionInBetween": 0.01321
+  },
+  {
+   "surface": "hero",
+   "layer": "mid",
+   "windowPixels": 23066,
+   "mismatchAtMoodLits": {
+    "0.10": 0,
+    "0.12": 0,
+    "0.24": 0,
+    "0.38": 0,
+    "0.50": 0,
+    "0.58": 0,
+    "0.80": 0
+   },
+   "maxMismatchFractionInBetween": 0.01669
+  },
+  {
+   "surface": "preview",
+   "layer": "far",
+   "windowPixels": 8807,
+   "mismatchAtMoodLits": {
+    "0.10": 0,
+    "0.12": 0,
+    "0.24": 0,
+    "0.38": 0,
+    "0.50": 0,
+    "0.58": 0,
+    "0.80": 0
+   },
+   "maxMismatchFractionInBetween": 0.01805
+  },
+  {
+   "surface": "preview",
+   "layer": "mid",
+   "windowPixels": 22794,
+   "mismatchAtMoodLits": {
+    "0.10": 0,
+    "0.12": 0,
+    "0.24": 0,
+    "0.38": 0,
+    "0.50": 0,
+    "0.58": 0,
+    "0.80": 0
+   },
+   "maxMismatchFractionInBetween": 0.01601
+  },
+  {
+   "surface": "full",
+   "layer": "far",
+   "windowPixels": 47436,
+   "mismatchAtMoodLits": {
+    "0.10": 0,
+    "0.12": 0,
+    "0.24": 0,
+    "0.38": 0,
+    "0.50": 0,
+    "0.58": 0,
+    "0.80": 0
+   },
+   "maxMismatchFractionInBetween": 0.00723
+  },
+  {
+   "surface": "full",
+   "layer": "mid",
+   "windowPixels": 155084,
+   "mismatchAtMoodLits": {
+    "0.10": 0,
+    "0.12": 0,
+    "0.24": 0,
+    "0.38": 0,
+    "0.50": 0,
+    "0.58": 0,
+    "0.80": 0
+   },
+   "maxMismatchFractionInBetween": 0.01512
+  }
+ ]
+}

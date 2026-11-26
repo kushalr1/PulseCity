@@ -1,0 +1,38 @@
+{
+ "hero-winter/normal/cam0_t0_train0": {
+  "meanAbs": 0.647,
+  "max": 83,
+  "pctOver4": 0.264,
+  "pctOver16": 0.094
+ },
+ "hero-winter/normal/cam0.5_t1.3_train300": {
+  "meanAbs": 0.687,
+  "max": 87,
+  "pctOver4": 0.604,
+  "pctOver16": 0.105
+ },
+ "hero-winter/normal/cam1_t2.7_train520": {
+  "meanAbs": 0.684,
+  "max": 76,
+  "pctOver4": 0.587,
+  "pctOver16": 0.106
+ },
+ "preview-winter/normal/cam0_t0_train0": {
+  "meanAbs": 0.793,
+  "max": 80,
+  "pctOver4": 1.089,
+  "pctOver16": 0.252
+ },
+ "preview-winter/normal/cam0.5_t1.3_train300": {
+  "meanAbs": 0.828,
+  "max": 91,
+  "pctOver4": 1.527,
+  "pctOver16": 0.278
+ },
+ "preview-winter/normal/cam1_t2.7_train520": {
+  "meanAbs": 0.853,
+  "max": 81,
+  "pctOver4": 1.725,
+  "pctOver16": 0.251
+ }
+}

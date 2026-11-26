@@ -1,0 +1,1168 @@
+{
+ "source": "pulsecity-v2.3.html artSVG() \u2014 procedural illustrations, unchanged",
+ "label": "Illustration \u2014 not a photo of this place",
+ "scaling": "cover (resizeMode/contentFit \"cover\"), centred, like SVG preserveAspectRatio xMidYMid slice",
+ "count": 66,
+ "items": [
+  {
+   "group": "places",
+   "id": "leisure-valley",
+   "cat": "park",
+   "name": "Leisure Valley Park",
+   "kind": "landmark",
+   "area": "s29",
+   "theme": "city",
+   "file": "places/city/leisure-valley@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "leisure-valley",
+   "cat": "park",
+   "name": "Leisure Valley Park",
+   "kind": "landmark",
+   "area": "s29",
+   "theme": "winter",
+   "file": "places/winter/leisure-valley@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "aravalli",
+   "cat": "park",
+   "name": "Aravalli Biodiversity Park",
+   "kind": "landmark",
+   "area": "mg",
+   "theme": "city",
+   "file": "places/city/aravalli@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "aravalli",
+   "cat": "park",
+   "name": "Aravalli Biodiversity Park",
+   "kind": "landmark",
+   "area": "mg",
+   "theme": "winter",
+   "file": "places/winter/aravalli@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "galleria",
+   "cat": "market",
+   "name": "Galleria Market",
+   "kind": "landmark",
+   "area": "dlf4",
+   "theme": "city",
+   "file": "places/city/galleria@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "galleria",
+   "cat": "market",
+   "name": "Galleria Market",
+   "kind": "landmark",
+   "area": "dlf4",
+   "theme": "winter",
+   "file": "places/winter/galleria@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "cyberhub",
+   "cat": "restaurant",
+   "name": "DLF CyberHub",
+   "kind": "landmark",
+   "area": "cyber",
+   "theme": "city",
+   "file": "places/city/cyberhub@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "cyberhub",
+   "cat": "restaurant",
+   "name": "DLF CyberHub",
+   "kind": "landmark",
+   "area": "cyber",
+   "theme": "winter",
+   "file": "places/winter/cyberhub@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "s29-market",
+   "cat": "restaurant",
+   "name": "Sector 29 Market",
+   "kind": "landmark",
+   "area": "s29",
+   "theme": "city",
+   "file": "places/city/s29-market@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "s29-market",
+   "cat": "restaurant",
+   "name": "Sector 29 Market",
+   "kind": "landmark",
+   "area": "s29",
+   "theme": "winter",
+   "file": "places/winter/s29-market@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "sadar",
+   "cat": "market",
+   "name": "Sadar Bazaar",
+   "kind": "landmark",
+   "area": "old",
+   "theme": "city",
+   "file": "places/city/sadar@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "sadar",
+   "cat": "market",
+   "name": "Sadar Bazaar",
+   "kind": "landmark",
+   "area": "old",
+   "theme": "winter",
+   "file": "places/winter/sadar@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "ambience",
+   "cat": "mall",
+   "name": "Ambience Mall",
+   "kind": "landmark",
+   "area": "cyber",
+   "theme": "city",
+   "file": "places/city/ambience@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "ambience",
+   "cat": "mall",
+   "name": "Ambience Mall",
+   "kind": "landmark",
+   "area": "cyber",
+   "theme": "winter",
+   "file": "places/winter/ambience@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "sultanpur",
+   "cat": "park",
+   "name": "Sultanpur National Park",
+   "kind": "landmark",
+   "area": "old",
+   "theme": "city",
+   "file": "places/city/sultanpur@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "sultanpur",
+   "cat": "park",
+   "name": "Sultanpur National Park",
+   "kind": "landmark",
+   "area": "old",
+   "theme": "winter",
+   "file": "places/winter/sultanpur@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "damdama",
+   "cat": "park",
+   "name": "Damdama Lake",
+   "kind": "landmark",
+   "area": "sohna",
+   "theme": "city",
+   "file": "places/city/damdama@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "damdama",
+   "cat": "park",
+   "name": "Damdama Lake",
+   "kind": "landmark",
+   "area": "sohna",
+   "theme": "winter",
+   "file": "places/winter/damdama@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "kavach",
+   "cat": "pharmacy",
+   "name": "Kavach Pharmacy",
+   "kind": "demo",
+   "area": "s29",
+   "theme": "city",
+   "file": "places/city/kavach@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "kavach",
+   "cat": "pharmacy",
+   "name": "Kavach Pharmacy",
+   "kind": "demo",
+   "area": "s29",
+   "theme": "winter",
+   "file": "places/winter/kavach@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "medicorner",
+   "cat": "pharmacy",
+   "name": "MediCorner Chemist",
+   "kind": "demo",
+   "area": "gcr",
+   "theme": "city",
+   "file": "places/city/medicorner@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "medicorner",
+   "cat": "pharmacy",
+   "name": "MediCorner Chemist",
+   "kind": "demo",
+   "area": "gcr",
+   "theme": "winter",
+   "file": "places/winter/medicorner@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "neem",
+   "cat": "pharmacy",
+   "name": "Neem Health Store",
+   "kind": "demo",
+   "area": "sohna",
+   "theme": "city",
+   "file": "places/city/neem@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "neem",
+   "cat": "pharmacy",
+   "name": "Neem Health Store",
+   "kind": "demo",
+   "area": "sohna",
+   "theme": "winter",
+   "file": "places/winter/neem@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "daily-basket",
+   "cat": "grocery",
+   "name": "Daily Basket",
+   "kind": "demo",
+   "area": "dlf4",
+   "theme": "city",
+   "file": "places/city/daily-basket@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "daily-basket",
+   "cat": "grocery",
+   "name": "Daily Basket",
+   "kind": "demo",
+   "area": "dlf4",
+   "theme": "winter",
+   "file": "places/winter/daily-basket@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "green-crate",
+   "cat": "grocery",
+   "name": "Green Crate Grocers",
+   "kind": "demo",
+   "area": "s56",
+   "theme": "city",
+   "file": "places/city/green-crate@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "green-crate",
+   "cat": "grocery",
+   "name": "Green Crate Grocers",
+   "kind": "demo",
+   "area": "s56",
+   "theme": "winter",
+   "file": "places/winter/green-crate@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "mandi-fresh",
+   "cat": "grocery",
+   "name": "Mandi Fresh",
+   "kind": "demo",
+   "area": "old",
+   "theme": "city",
+   "file": "places/city/mandi-fresh@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "mandi-fresh",
+   "cat": "grocery",
+   "name": "Mandi Fresh",
+   "kind": "demo",
+   "area": "old",
+   "theme": "winter",
+   "file": "places/winter/mandi-fresh@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "second-draft",
+   "cat": "cafe",
+   "name": "Second Draft Coffee",
+   "kind": "demo",
+   "area": "gcr",
+   "theme": "city",
+   "file": "places/city/second-draft@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "second-draft",
+   "cat": "cafe",
+   "name": "Second Draft Coffee",
+   "kind": "demo",
+   "area": "gcr",
+   "theme": "winter",
+   "file": "places/winter/second-draft@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "pinwheel",
+   "cat": "cafe",
+   "name": "Pinwheel Game Caf\u00e9",
+   "kind": "demo",
+   "area": "sohna",
+   "theme": "city",
+   "file": "places/city/pinwheel@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "pinwheel",
+   "cat": "cafe",
+   "name": "Pinwheel Game Caf\u00e9",
+   "kind": "demo",
+   "area": "sohna",
+   "theme": "winter",
+   "file": "places/winter/pinwheel@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "kettle",
+   "cat": "cafe",
+   "name": "Kettle & Kulhad",
+   "kind": "demo",
+   "area": "s29",
+   "theme": "city",
+   "file": "places/city/kettle@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "kettle",
+   "cat": "cafe",
+   "name": "Kettle & Kulhad",
+   "kind": "demo",
+   "area": "s29",
+   "theme": "winter",
+   "file": "places/winter/kettle@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "studio-shear",
+   "cat": "salon",
+   "name": "Studio Shear",
+   "kind": "demo",
+   "area": "mg",
+   "theme": "city",
+   "file": "places/city/studio-shear@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "studio-shear",
+   "cat": "salon",
+   "name": "Studio Shear",
+   "kind": "demo",
+   "area": "mg",
+   "theme": "winter",
+   "file": "places/winter/studio-shear@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "groom-room",
+   "cat": "salon",
+   "name": "The Groom Room",
+   "kind": "demo",
+   "area": "cyber",
+   "theme": "city",
+   "file": "places/city/groom-room@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "groom-room",
+   "cat": "salon",
+   "name": "The Groom Room",
+   "kind": "demo",
+   "area": "cyber",
+   "theme": "winter",
+   "file": "places/winter/groom-room@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "fixpoint",
+   "cat": "repair",
+   "name": "FixPoint Mobile Care",
+   "kind": "demo",
+   "area": "s29",
+   "theme": "city",
+   "file": "places/city/fixpoint@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "fixpoint",
+   "cat": "repair",
+   "name": "FixPoint Mobile Care",
+   "kind": "demo",
+   "area": "s29",
+   "theme": "winter",
+   "file": "places/winter/fixpoint@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "circuit-doctor",
+   "cat": "repair",
+   "name": "Circuit Doctor",
+   "kind": "demo",
+   "area": "old",
+   "theme": "city",
+   "file": "places/city/circuit-doctor@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "circuit-doctor",
+   "cat": "repair",
+   "name": "Circuit Doctor",
+   "kind": "demo",
+   "area": "old",
+   "theme": "winter",
+   "file": "places/winter/circuit-doctor@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "ironline",
+   "cat": "gym",
+   "name": "Ironline Fitness",
+   "kind": "demo",
+   "area": "gcr",
+   "theme": "city",
+   "file": "places/city/ironline@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "ironline",
+   "cat": "gym",
+   "name": "Ironline Fitness",
+   "kind": "demo",
+   "area": "gcr",
+   "theme": "winter",
+   "file": "places/winter/ironline@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "move-studio",
+   "cat": "gym",
+   "name": "Move Studio",
+   "kind": "demo",
+   "area": "dlf4",
+   "theme": "city",
+   "file": "places/city/move-studio@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "move-studio",
+   "cat": "gym",
+   "name": "Move Studio",
+   "kind": "demo",
+   "area": "dlf4",
+   "theme": "winter",
+   "file": "places/winter/move-studio@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "low-tide",
+   "cat": "club",
+   "name": "Low Tide Listening Room",
+   "kind": "demo",
+   "area": "cyber",
+   "theme": "city",
+   "file": "places/city/low-tide@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "low-tide",
+   "cat": "club",
+   "name": "Low Tide Listening Room",
+   "kind": "demo",
+   "area": "cyber",
+   "theme": "winter",
+   "file": "places/winter/low-tide@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "clay-chai",
+   "cat": "entertainment",
+   "name": "Clay & Chai Studio",
+   "kind": "demo",
+   "area": "old",
+   "theme": "city",
+   "file": "places/city/clay-chai@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "places",
+   "id": "clay-chai",
+   "cat": "entertainment",
+   "name": "Clay & Chai Studio",
+   "kind": "demo",
+   "area": "old",
+   "theme": "winter",
+   "file": "places/winter/clay-chai@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "events",
+   "id": "clay-night",
+   "cat": "workshop",
+   "name": "Clay & Chai: Beginner Wheel Night",
+   "theme": "city",
+   "file": "events/city/clay-night@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "events",
+   "id": "open-mic",
+   "cat": "comedy",
+   "name": "Open Mic Comedy Night",
+   "theme": "city",
+   "file": "events/city/open-mic@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "events",
+   "id": "acoustic",
+   "cat": "music",
+   "name": "Acoustic Evenings",
+   "theme": "city",
+   "file": "events/city/acoustic@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "events",
+   "id": "food-walk",
+   "cat": "food",
+   "name": "Old Gurugram Street Food Walk",
+   "theme": "city",
+   "file": "events/city/food-walk@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "events",
+   "id": "flea",
+   "cat": "community",
+   "name": "Weekend Makers Market",
+   "theme": "city",
+   "file": "events/city/flea@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "events",
+   "id": "run-club",
+   "cat": "sports",
+   "name": "Sunday Morning Run Club",
+   "theme": "city",
+   "file": "events/city/run-club@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "events",
+   "id": "birds",
+   "cat": "community",
+   "name": "Winter Birdwatching Morning",
+   "theme": "city",
+   "file": "events/city/birds@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "events",
+   "id": "sketch",
+   "cat": "culture",
+   "name": "Heritage Sketch Walk",
+   "theme": "city",
+   "file": "events/city/sketch@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "events",
+   "id": "games",
+   "cat": "community",
+   "name": "Board Game Marathon",
+   "theme": "city",
+   "file": "events/city/games@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "collections",
+   "id": "touch-grass",
+   "cat": "park",
+   "name": "Touch Grass, Gurgaon Edition",
+   "theme": "city",
+   "file": "collections/city/touch-grass@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "collections",
+   "id": "first-weekend",
+   "cat": "market",
+   "name": "Weekend sorted?",
+   "theme": "city",
+   "file": "collections/city/first-weekend@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "collections",
+   "id": "laptop-band",
+   "cat": "restaurant",
+   "name": "Laptop band, plans on",
+   "theme": "city",
+   "file": "collections/city/laptop-band@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "collections",
+   "id": "coffee-conv",
+   "cat": "cafe",
+   "name": "Coffee ka plan?",
+   "theme": "city",
+   "file": "collections/city/coffee-conv@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  },
+  {
+   "group": "collections",
+   "id": "beyond-cyberhub",
+   "cat": "market",
+   "name": "Beyond CyberHub",
+   "theme": "city",
+   "file": "collections/city/beyond-cyberhub@3x.png",
+   "sizePx": [
+    1200,
+    780
+   ],
+   "sizePt": [
+    400,
+    260
+   ]
+  }
+ ]
+}

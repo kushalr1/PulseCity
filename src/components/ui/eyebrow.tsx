@@ -1,8 +1,9 @@
-import { StyleSheet, Text, View, type ViewStyle } from 'react-native';
+import { StyleSheet, View, type ViewStyle } from 'react-native';
+import { AppText } from '@/components/ui/app-text';
 import { colors } from '@/constants/theme';
 
 export function Eyebrow({ children, style }: { children: string; style?: ViewStyle }) {
-  return <View style={[styles.wrap, style]}><View style={styles.dot} /><Text style={styles.text}>{children}</Text></View>;
+  return <View style={[styles.wrap, style]}><View style={styles.dot} /><AppText style={styles.text}>{children}</AppText></View>;
 }
 
 const styles = StyleSheet.create({

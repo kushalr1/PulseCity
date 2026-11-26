@@ -1,0 +1,56 @@
+{
+ "hero/normal/cam0_t0_train0": {
+  "meanAbs": 0.867,
+  "max": 50,
+  "pctOver4": 0.03,
+  "pctOver16": 0.006
+ },
+ "hero/normal/cam0.5_t1.3_train300": {
+  "meanAbs": 0.869,
+  "max": 52,
+  "pctOver4": 0.04,
+  "pctOver16": 0.009
+ },
+ "hero/normal/cam1_t2.7_train520": {
+  "meanAbs": 0.868,
+  "max": 51,
+  "pctOver4": 0.044,
+  "pctOver16": 0.014
+ },
+ "preview/additive/cam0_t0_train0": {
+  "meanAbs": 0.955,
+  "max": 64,
+  "pctOver4": 0.657,
+  "pctOver16": 0.311
+ },
+ "preview/additive/cam0.5_t1.3_train300": {
+  "meanAbs": 0.95,
+  "max": 82,
+  "pctOver4": 0.517,
+  "pctOver16": 0.216
+ },
+ "preview/additive/cam1_t2.7_train520": {
+  "meanAbs": 1.012,
+  "max": 83,
+  "pctOver4": 0.811,
+  "pctOver16": 0.386
+ },
+ "preview/normal/cam0_t0_train0": {
+  "meanAbs": 1.503,
+  "max": 75,
+  "pctOver4": 8.073,
+  "pctOver16": 1.499
+ },
+ "preview/normal/cam0.5_t1.3_train300": {
+  "meanAbs": 1.459,
+  "max": 76,
+  "pctOver4": 7.98,
+  "pctOver16": 1.364
+ },
+ "preview/normal/cam1_t2.7_train520": {
+  "meanAbs": 1.475,
+  "max": 79,
+  "pctOver4": 8.163,
+  "pctOver16": 1.279
+ }
+}

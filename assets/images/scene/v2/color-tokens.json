@@ -1,0 +1,259 @@
+{
+ "source": "scene.js CW_PAL (v2.3) - all moods kept for later exports",
+ "exported": {
+  "theme": "city",
+  "mood": "chill"
+ },
+ "CW_PAL": {
+  "city": {
+   "nature": {
+    "sky": [
+     "#24435C",
+     "#6F9A92",
+     "#F3D29A"
+    ],
+    "ridge": "#4C6A5A",
+    "far": "#3F5A55",
+    "mid": "#22362F",
+    "near": "#111C18",
+    "haze": "#FFEFD0",
+    "hazeA": 0.22,
+    "win": "#FFE6AE",
+    "lit": 0.12,
+    "stars": 0,
+    "glow": "#FFE3A0",
+    "beam": "#CFF27F",
+    "traffic": 0.6
+   },
+   "active": {
+    "sky": [
+     "#0F3670",
+     "#3C7FCB",
+     "#BFE2FF"
+    ],
+    "ridge": "#3F6A99",
+    "far": "#4A6E9C",
+    "mid": "#1B3962",
+    "near": "#0C1B33",
+    "haze": "#E6F4FF",
+    "hazeA": 0.22,
+    "win": "#FFFFFF",
+    "lit": 0.1,
+    "stars": 0,
+    "glow": "#FFFFFF",
+    "beam": "#8FD3FF",
+    "traffic": 1.1
+   },
+   "explore": {
+    "sky": [
+     "#1A1342",
+     "#55388A",
+     "#E9848C"
+    ],
+    "ridge": "#36295F",
+    "far": "#3B2C6A",
+    "mid": "#211845",
+    "near": "#0F0B24",
+    "haze": "#C8B4FF",
+    "hazeA": 0.16,
+    "win": "#E0D2FF",
+    "lit": 0.38,
+    "stars": 0.5,
+    "glow": "#FFC2A8",
+    "beam": "#C3A8FF",
+    "traffic": 0.8
+   },
+   "foodie": {
+    "sky": [
+     "#260C12",
+     "#82291C",
+     "#FF9A3A"
+    ],
+    "ridge": "#451C15",
+    "far": "#4F2317",
+    "mid": "#2A100C",
+    "near": "#150705",
+    "haze": "#FFB070",
+    "hazeA": 0.18,
+    "win": "#FFC46A",
+    "lit": 0.58,
+    "stars": 0.1,
+    "glow": "#FFB347",
+    "beam": "#FFC46A",
+    "traffic": 1.1
+   },
+   "social": {
+    "sky": [
+     "#130828",
+     "#471353",
+     "#C93A74"
+    ],
+    "ridge": "#2A0F36",
+    "far": "#32133D",
+    "mid": "#1E0A29",
+    "near": "#100518",
+    "haze": "#FF7DB0",
+    "hazeA": 0.14,
+    "win": "#FFD28C",
+    "lit": 0.8,
+    "stars": 0.3,
+    "glow": "#FF9CC4",
+    "beam": "#FF7DB0",
+    "traffic": 1.5
+   },
+   "chill": {
+    "sky": [
+     "#06101D",
+     "#122943",
+     "#2D5563"
+    ],
+    "ridge": "#0F1F2E",
+    "far": "#142638",
+    "mid": "#0C1727",
+    "near": "#060E18",
+    "haze": "#7FB8C8",
+    "hazeA": 0.12,
+    "win": "#FFD99A",
+    "lit": 0.24,
+    "stars": 1,
+    "glow": "#E9F2FF",
+    "beam": "#8FE3D0",
+    "traffic": 0.4
+   }
+  },
+  "winter": {
+   "chill": {
+    "sky": [
+     "#0E1A36",
+     "#2B4778",
+     "#9CB8E6"
+    ],
+    "bld": "#1A2A4C",
+    "glow": "#EAF2FF",
+    "beam": "#BFE3FF"
+   },
+   "social": {
+    "sky": [
+     "#1B1638",
+     "#43407E",
+     "#C9B6EC"
+    ],
+    "bld": "#221E44",
+    "glow": "#FFE3F0",
+    "beam": "#FFD38A"
+   },
+   "nature": {
+    "sky": [
+     "#14284A",
+     "#3E6A99",
+     "#C5E0F2"
+    ],
+    "bld": "#1C3354",
+    "glow": "#F2FAFF",
+    "beam": "#D6F5E6"
+   },
+   "active": {
+    "sky": [
+     "#123060",
+     "#3F79BF",
+     "#D4E8FA"
+    ],
+    "bld": "#183A66",
+    "glow": "#FFFFFF",
+    "beam": "#BFE3FF"
+   },
+   "foodie": {
+    "sky": [
+     "#1E1A3A",
+     "#4C3F78",
+     "#F2C9A6"
+    ],
+    "bld": "#241F45",
+    "glow": "#FFE0B3",
+    "beam": "#FFC46A"
+   },
+   "explore": {
+    "sky": [
+     "#161A40",
+     "#3B3F8C",
+     "#C7C2F0"
+    ],
+    "bld": "#1D2150",
+    "glow": "#F0EAFF",
+    "beam": "#D8C8FF"
+   }
+  }
+ },
+ "GEOM": {
+  "band": {
+   "ridge": 0.6,
+   "far": 0.74,
+   "mid": 0.93,
+   "metro": 0,
+   "near": 1.2,
+   "scaleH": 0.42,
+   "world": 1.35
+  },
+  "panel": {
+   "ridge": 0.56,
+   "far": 0.7,
+   "mid": 0.88,
+   "metro": 0.9,
+   "near": 0.95,
+   "scaleH": 0.5,
+   "world": 1.7
+  },
+  "full": {
+   "ridge": 0.5,
+   "far": 0.62,
+   "mid": 0.75,
+   "metro": 0.79,
+   "near": 0.83,
+   "scaleH": 0.34,
+   "world": 3.1
+  },
+  "thumb": {
+   "ridge": 0.55,
+   "far": 0.7,
+   "mid": 0.9,
+   "metro": 0,
+   "near": 1.2,
+   "scaleH": 0.5,
+   "world": 1
+  }
+ },
+ "PARALLAX": {
+  "ridge": 0.12,
+  "far": 0.3,
+  "mid": 0.6,
+  "metro": 0.8,
+  "near": 1
+ },
+ "DISTRICTS": [
+  {
+   "id": "old",
+   "short": "Old Gurugram",
+   "x": 0.1
+  },
+  {
+   "id": "s29",
+   "short": "Sector 29",
+   "x": 0.29
+  },
+  {
+   "id": "cyber",
+   "short": "Cyber City",
+   "x": 0.5
+  },
+  {
+   "id": "galleria",
+   "short": "Galleria",
+   "x": 0.7
+  },
+  {
+   "id": "green",
+   "short": "Green Edge",
+   "x": 0.9
+  }
+ ]
+}
